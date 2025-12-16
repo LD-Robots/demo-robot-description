@@ -1,13 +1,14 @@
 {
     "configuration": "default",
-    "documentId": "b077fc27aee0d6fa32aac1cf",
-    "documentMicroversion": "0df88d9ffcb4abbb33371eac",
-    "elementId": "81336fa44409e083b9666c18",
+    "documentId": "b3fd26a7b132793f2c393fec",
+    "documentMicroversion": "8356ec0fc5286e26ea27939b",
+    "documentVersion": "0fa5446e4c17bdbeedf24fea",
+    "elementId": "a26cacabcc70bec48cb39350",
     "fullConfiguration": "default",
-    "id": "Mm+aGFoygLOWIXiOv",
+    "id": "M9nS3YRXO4zN2TnrJ",
     "isStandardContent": false,
     "name": "Hip <1>",
-    "partId": "RLED",
+    "partId": "RdFD",
     "suppressed": false,
     "type": "Part"
 }

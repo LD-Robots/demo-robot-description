@@ -1,19 +1,19 @@
 <?xml version="1.0" ?>
 <!-- Generated using onshape-to-robot -->
-<!-- Onshape document_id: b077fc27aee0d6fa32aac1cf -->
+<!-- Onshape document_id: ac606044cb3b00c8bc5d0540 -->
 <robot name="demo-robot-description">
-  <!-- Link base -->
-  <link name="base">
+  <!-- Link torso_assembly -->
+  <link name="torso_assembly">
     <inertial>
-      <origin xyz="-0.000624923 -5.19096e-18 1.03082" rpy="0 0 0"/>
+      <origin xyz="4.91605e-18 -2.9526e-18 -4.81255e-17" rpy="0 0 0"/>
       <mass value="411.176"/>
-      <inertia ixx="13.4098" ixy="0" ixz="0.0576033" iyy="18.7406" iyz="-4.41442e-16" izz="8.06749"/>
+      <inertia ixx="13.4098" ixy="0" ixz="0.0576033" iyy="18.7406" iyz="-4.43082e-16" izz="8.06749"/>
     </inertial>
     <!-- Part base -->
     <visual>
       <origin xyz="0 0 0" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="package://assets/base.stl"/>
+        <mesh filename="assets/base.stl"/>
       </geometry>
       <material name="base_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -22,31 +22,31 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="package://assets/base.stl"/>
+        <mesh filename="assets/base.stl"/>
       </geometry>
     </collision>
   </link>
-  <!-- Link pelvis_2 -->
-  <link name="pelvis_2">
+  <!-- Link pelvis_assembly -->
+  <link name="pelvis_assembly">
     <inertial>
-      <origin xyz="-8.7163e-12 2.56959e-09 -0.113085" rpy="0 0 0"/>
+      <origin xyz="-8.71637e-12 2.56959e-09 -0.113085" rpy="0 0 0"/>
       <mass value="14.426"/>
-      <inertia ixx="0.0488136" ixy="-6.67368e-09" ixz="4.52214e-12" iyy="0.0730348" iyz="-4.29595e-09" izz="0.0606498"/>
+      <inertia ixx="0.0488136" ixy="-6.67368e-09" ixz="4.52216e-12" iyy="0.0730348" iyz="-4.29595e-09" izz="0.0606498"/>
     </inertial>
     <!-- Part pelvis_2 -->
     <visual>
-      <origin xyz="3.81639e-16 1.99005e-18 -0.732" rpy="0 -0 0"/>
+      <origin xyz="-8.71638e-12 2.56959e-09 -0.113085" rpy="4.1926e-34 -1.08683e-34 5.79718e-19"/>
       <geometry>
-        <mesh filename="package://assets/pelvis.stl"/>
+        <mesh filename="assets/pelvis.stl"/>
       </geometry>
       <material name="pelvis_2_material">
-        <color rgba="0.980392 0.713725 0.00392157 1"/>
+        <color rgba="0.615686 0.811765 0.929412 1"/>
       </material>
     </visual>
     <collision>
-      <origin xyz="3.81639e-16 1.99005e-18 -0.732" rpy="0 -0 0"/>
+      <origin xyz="-8.71638e-12 2.56959e-09 -0.113085" rpy="4.1926e-34 -1.08683e-34 5.79718e-19"/>
       <geometry>
-        <mesh filename="package://assets/pelvis.stl"/>
+        <mesh filename="assets/pelvis.stl"/>
       </geometry>
     </collision>
   </link>
@@ -60,13 +60,13 @@
     </inertial>
   </link>
   <joint name="pelvis_frame" type="fixed">
-    <origin xyz="7.59908e-17 4.77612e-18 0" rpy="0 -0 0"/>
-    <parent link="pelvis_2"/>
+    <origin xyz="2.71051e-17 -1.63816e-18 0" rpy="4.1926e-34 -1.08683e-34 5.79718e-19"/>
+    <parent link="pelvis_assembly"/>
     <child link="pelvis"/>
     <axis xyz="0 0 0"/>
   </joint>
-  <!-- Link hip -->
-  <link name="hip">
+  <!-- Link l_hip_assembly -->
+  <link name="l_hip_assembly">
     <inertial>
       <origin xyz="-2.84048e-10 -8.41218e-09 -0.0522607" rpy="0 0 0"/>
       <mass value="7.41924"/>
@@ -74,18 +74,18 @@
     </inertial>
     <!-- Part hip -->
     <visual>
-      <origin xyz="0 -0.605 0.12" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-2.84048e-10 -8.41219e-09 -0.0522605" rpy="-1.5708 -1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/hip.stl"/>
+        <mesh filename="assets/hip.stl"/>
       </geometry>
       <material name="hip_material">
-        <color rgba="0.498039 0.498039 0.498039 1"/>
+        <color rgba="0.615686 0.811765 0.929412 1"/>
       </material>
     </visual>
     <collision>
-      <origin xyz="0 -0.605 0.12" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-2.84048e-10 -8.41219e-09 -0.0522605" rpy="-1.5708 -1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/hip.stl"/>
+        <mesh filename="assets/hip.stl"/>
       </geometry>
     </collision>
   </link>
@@ -99,25 +99,25 @@
     </inertial>
   </link>
   <joint name="left_hip_frame" type="fixed">
-    <origin xyz="-1.53081e-19 0 -2.77556e-17" rpy="-1.5708 -1.5708 0"/>
-    <parent link="hip"/>
+    <origin xyz="2.84603e-19 0 0" rpy="-1.5708 -1.5708 0"/>
+    <parent link="l_hip_assembly"/>
     <child link="left_hip"/>
     <axis xyz="0 0 0"/>
   </joint>
-  <!-- Joint from pelvis_2 to hip -->
+  <!-- Joint from pelvis_assembly to l_hip_assembly -->
   <joint name="left_hip_pitch_joint" type="revolute">
-    <origin xyz="-0.12 1.99005e-18 -0.127" rpy="1.5708 -0 1.5708"/>
-    <parent link="pelvis_2"/>
-    <child link="hip"/>
+    <origin xyz="-0.123 -3.35425e-18 -0.127" rpy="1.5708 -5.83786e-16 1.5708"/>
+    <parent link="pelvis_assembly"/>
+    <child link="l_hip_assembly"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+    <limit effort="10" velocity="10" lower="-1.74533" upper="0.785398"/>
   </joint>
-  <!-- Joint from base to pelvis_2 -->
+  <!-- Joint from torso_assembly to pelvis_assembly -->
   <joint name="waist_yaw_joint" type="revolute">
-    <origin xyz="-3.81639e-16 -1.99005e-18 0.732" rpy="0 -0 0"/>
-    <parent link="base"/>
-    <child link="pelvis_2"/>
+    <origin xyz="0.000624923 -1.11573e-17 -0.298822" rpy="-2.52536e-18 -4.61573e-19 0.0239641"/>
+    <parent link="torso_assembly"/>
+    <child link="pelvis_assembly"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-3.141592653589793" upper="3.141592653589793"/>
+    <limit effort="10" velocity="10" lower="-0.809362" upper="0.761434"/>
   </joint>
 </robot>
