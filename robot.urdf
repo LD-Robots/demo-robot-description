@@ -5,9 +5,9 @@
   <!-- Link base -->
   <link name="base">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-0.000624923 -4.156e-18 1.03082" rpy="0 0 0"/>
+      <mass value="411.176"/>
+      <inertia ixx="13.4098" ixy="0" ixz="0.0576033" iyy="18.7406" iyz="-4.75828e-16" izz="8.06749"/>
     </inertial>
     <!-- Part base -->
     <visual>
@@ -29,9 +29,9 @@
   <!-- Link pelvis_2 -->
   <link name="pelvis_2">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-8.7163e-12 2.56959e-09 -0.113085" rpy="0 0 0"/>
+      <mass value="14.426"/>
+      <inertia ixx="0.0488136" ixy="-6.67368e-09" ixz="4.52214e-12" iyy="0.0730348" iyz="-4.29595e-09" izz="0.0606498"/>
     </inertial>
     <!-- Part pelvis_2 -->
     <visual>
@@ -68,9 +68,9 @@
   <!-- Link hip -->
   <link name="hip">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-2.84048e-10 -8.41218e-09 -0.0522607" rpy="0 0 0"/>
+      <mass value="7.41924"/>
+      <inertia ixx="0.0219052" ixy="6.91196e-10" ixz="5.07497e-11" iyy="0.0184985" iyz="-1.48509e-08" izz="0.0132238"/>
     </inertial>
     <!-- Part hip -->
     <visual>
