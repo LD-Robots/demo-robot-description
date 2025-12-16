@@ -1,0 +1,8 @@
+// settings.json
+{
+  // other settings
+  "urdf-visualizer.packages": {
+      "demo-robot-description": "robot.urdf"
+  },
+  // other settings
+}
