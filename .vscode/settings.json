@@ -3,6 +3,7 @@
   // other settings
   "urdf-visualizer.packages": {
       "demo-robot-description": "robot.urdf"
-  },
+},
+"github.copilot.chat.codeGeneration.useInstructionFiles": true,
   // other settings
 }
