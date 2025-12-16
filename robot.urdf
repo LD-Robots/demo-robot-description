@@ -5,15 +5,15 @@
   <!-- Link base -->
   <link name="base">
     <inertial>
-      <origin xyz="-0.000624923 -4.156e-18 1.03082" rpy="0 0 0"/>
+      <origin xyz="-0.000624923 -5.19096e-18 1.03082" rpy="0 0 0"/>
       <mass value="411.176"/>
-      <inertia ixx="13.4098" ixy="0" ixz="0.0576033" iyy="18.7406" iyz="-4.75828e-16" izz="8.06749"/>
+      <inertia ixx="13.4098" ixy="0" ixz="0.0576033" iyy="18.7406" iyz="-4.41442e-16" izz="8.06749"/>
     </inertial>
     <!-- Part base -->
     <visual>
       <origin xyz="0 0 0" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="assets/base.stl"/>
+        <mesh filename="package://assets/base.stl"/>
       </geometry>
       <material name="base_material">
         <color rgba="0.615686 0.811765 0.929412 1"/>
@@ -22,7 +22,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="assets/base.stl"/>
+        <mesh filename="package://assets/base.stl"/>
       </geometry>
     </collision>
   </link>
@@ -37,7 +37,7 @@
     <visual>
       <origin xyz="3.81639e-16 1.99005e-18 -0.732" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="assets/pelvis.stl"/>
+        <mesh filename="package://assets/pelvis.stl"/>
       </geometry>
       <material name="pelvis_2_material">
         <color rgba="0.980392 0.713725 0.00392157 1"/>
@@ -46,7 +46,7 @@
     <collision>
       <origin xyz="3.81639e-16 1.99005e-18 -0.732" rpy="0 -0 0"/>
       <geometry>
-        <mesh filename="assets/pelvis.stl"/>
+        <mesh filename="package://assets/pelvis.stl"/>
       </geometry>
     </collision>
   </link>
@@ -76,7 +76,7 @@
     <visual>
       <origin xyz="0 -0.605 0.12" rpy="-1.5708 -1.5708 0"/>
       <geometry>
-        <mesh filename="assets/hip.stl"/>
+        <mesh filename="package://assets/hip.stl"/>
       </geometry>
       <material name="hip_material">
         <color rgba="0.498039 0.498039 0.498039 1"/>
@@ -85,7 +85,7 @@
     <collision>
       <origin xyz="0 -0.605 0.12" rpy="-1.5708 -1.5708 0"/>
       <geometry>
-        <mesh filename="assets/hip.stl"/>
+        <mesh filename="package://assets/hip.stl"/>
       </geometry>
     </collision>
   </link>
