@@ -5,9 +5,9 @@
   <!-- Link base -->
   <link name="base">
     <inertial>
-      <origin xyz="-4.03105e-18 4.4043e-18 -2.00657e-16" rpy="0 0 0"/>
-      <mass value="356.291"/>
-      <inertia ixx="10.867" ixy="3.38715e-05" ixz="0.050679" iyy="14.3851" iyz="0.00597555" izz="5.88676"/>
+      <origin xyz="-6.56912e-18 5.85996e-18 -2.05434e-16" rpy="0 0 0"/>
+      <mass value="56.7343"/>
+      <inertia ixx="1.73041" ixy="5.39356e-06" ixz="0.00806991" iyy="2.29063" iyz="0.000951521" izz="0.937382"/>
     </inertial>
     <!-- Part base -->
     <visual>
@@ -30,12 +30,12 @@
   <link name="pelvis_assembly">
     <inertial>
       <origin xyz="-1.15585e-11 2.83846e-09 -0.108531" rpy="0 0 0"/>
-      <mass value="10.8788"/>
-      <inertia ixx="0.0415128" ixy="-7.22758e-09" ixz="3.94938e-12" iyy="0.0513006" iyz="-3.43885e-09" izz="0.0398244"/>
+      <mass value="1.73229"/>
+      <inertia ixx="0.00661031" ixy="-1.15089e-09" ixz="6.28883e-13" iyy="0.00816889" iyz="-5.47587e-10" izz="0.00634147"/>
     </inertial>
     <!-- Part frame -->
     <visual>
-      <origin xyz="4.05492e-17 4.33681e-19 0" rpy="1.18446e-17 2.74353e-17 4.1539e-17"/>
+      <origin xyz="4.11997e-17 5.69206e-19 0" rpy="1.18446e-17 -9.50293e-17 1.81448e-32"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -44,14 +44,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="4.05492e-17 4.33681e-19 0" rpy="1.18446e-17 2.74353e-17 4.1539e-17"/>
+      <origin xyz="4.11997e-17 5.69206e-19 0" rpy="1.18446e-17 -9.50293e-17 1.81448e-32"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part frame_2 -->
     <visual>
-      <origin xyz="0.1 -3.25261e-18 -0.127" rpy="-6.13158e-17 -9.93385e-17 -2.78635e-17"/>
+      <origin xyz="0.1 -1.14383e-17 -0.127" rpy="-1.22548e-16 -2.83036e-16 2.10001e-32"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -60,14 +60,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0.1 -3.25261e-18 -0.127" rpy="-6.13158e-17 -9.93385e-17 -2.78635e-17"/>
+      <origin xyz="0.1 -1.14383e-17 -0.127" rpy="-1.22548e-16 -2.83036e-16 2.10001e-32"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part pelvis -->
     <visual>
-      <origin xyz="-1.15585e-11 2.94601e-10 -0.108531" rpy="0 -0 -1.47914e-82"/>
+      <origin xyz="-1.15585e-11 2.94601e-10 -0.108531" rpy="0 -0 1.50404e-49"/>
       <geometry>
         <mesh filename="assets/pelvis.stl"/>
       </geometry>
@@ -76,7 +76,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-1.15585e-11 2.94601e-10 -0.108531" rpy="0 -0 -1.47914e-82"/>
+      <origin xyz="-1.15585e-11 2.94601e-10 -0.108531" rpy="0 -0 1.50404e-49"/>
       <geometry>
         <mesh filename="assets/pelvis.stl"/>
       </geometry>
@@ -86,12 +86,12 @@
   <link name="l_hip_assembly">
     <inertial>
       <origin xyz="-9.889e-10 -7.90235e-09 -0.0502172" rpy="0 0 0"/>
-      <mass value="6.32735"/>
-      <inertia ixx="0.0193374" ixy="-4.92774e-09" ixz="-9.66348e-10" iyy="0.0154909" iyz="-1.42594e-08" izz="0.0114641"/>
+      <mass value="1.00754"/>
+      <inertia ixx="0.00307921" ixy="-7.84672e-10" ixz="-1.53877e-10" iyy="0.00246671" iyz="-2.2706e-09" izz="0.00182549"/>
     </inertial>
     <!-- Part frame_3 -->
     <visual>
-      <origin xyz="-5.42101e-20 0 1.38778e-17" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-1.81333e-17 0 -2.08167e-16" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -100,7 +100,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-5.42101e-20 0 1.38778e-17" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-1.81333e-17 0 -2.08167e-16" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -125,13 +125,13 @@
   <!-- Link l_upper_femur_assembly -->
   <link name="l_upper_femur_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="5.72081e-07 -0.0707393 0.0191109" rpy="0 0 0"/>
+      <mass value="0.515655"/>
+      <inertia ixx="0.00215582" ixy="-9.06188e-09" ixz="1.57882e-08" iyy="0.00126845" iyz="0.000509998" izz="0.00199223"/>
     </inertial>
     <!-- Part frame_4 -->
     <visual>
-      <origin xyz="0 5.55112e-17 6.93889e-18" rpy="-1.5708 1.05611e-30 1.57772e-30"/>
+      <origin xyz="0 0 6.93889e-18" rpy="-1.5708 8.05391e-30 3.61568e-16"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -140,14 +140,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 5.55112e-17 6.93889e-18" rpy="-1.5708 1.05611e-30 1.57772e-30"/>
+      <origin xyz="0 0 6.93889e-18" rpy="-1.5708 8.05391e-30 3.61568e-16"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part l_upper_femur -->
     <visual>
-      <origin xyz="4.44645e-08 -0.0707395 0.0191113" rpy="-1.5708 -3.92017e-33 0"/>
+      <origin xyz="4.44645e-08 -0.0707395 0.0191113" rpy="-1.5708 -4.622e-33 0"/>
       <geometry>
         <mesh filename="assets/l_upper_femur.stl"/>
       </geometry>
@@ -156,7 +156,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="4.44645e-08 -0.0707395 0.0191113" rpy="-1.5708 -3.92017e-33 0"/>
+      <origin xyz="4.44645e-08 -0.0707395 0.0191113" rpy="-1.5708 -4.622e-33 0"/>
       <geometry>
         <mesh filename="assets/l_upper_femur.stl"/>
       </geometry>
@@ -165,13 +165,13 @@
   <!-- Link l_lower_femur_assembly -->
   <link name="l_lower_femur_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="2.7904e-09 -4.11691e-09 -0.0911492" rpy="0 0 0"/>
+      <mass value="2.28451"/>
+      <inertia ixx="0.0097292" ixy="-3.03995e-09" ixz="4.28149e-10" iyy="0.00940931" iyz="-5.23547e-10" izz="0.00389334"/>
     </inertial>
     <!-- Part frame_5 -->
     <visual>
-      <origin xyz="0 -8.13152e-20 0" rpy="-4.996e-16 1.52842e-30 -4.17359e-32"/>
+      <origin xyz="0 2.73761e-18 -2.22045e-16" rpy="-2.74143e-15 -9.29624e-16 -1.4988e-15"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -180,14 +180,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 -8.13152e-20 0" rpy="-4.996e-16 1.52842e-30 -4.17359e-32"/>
+      <origin xyz="0 2.73761e-18 -2.22045e-16" rpy="-2.74143e-15 -9.29624e-16 -1.4988e-15"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part l_lower_femur -->
     <visual>
-      <origin xyz="-5.8244e-10 -3.97077e-09 -0.0911491" rpy="0 -0 1.40496e-33"/>
+      <origin xyz="-5.8244e-10 -3.97077e-09 -0.0911491" rpy="-4.4147e-33 -1.64914e-32 4.86428e-32"/>
       <geometry>
         <mesh filename="assets/l_lower_femur.stl"/>
       </geometry>
@@ -196,7 +196,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-5.8244e-10 -3.97077e-09 -0.0911491" rpy="0 -0 1.40496e-33"/>
+      <origin xyz="-5.8244e-10 -3.97077e-09 -0.0911491" rpy="-4.4147e-33 -1.64914e-32 4.86428e-32"/>
       <geometry>
         <mesh filename="assets/l_lower_femur.stl"/>
       </geometry>
@@ -205,13 +205,13 @@
   <!-- Link l_tibia_assembly -->
   <link name="l_tibia_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-0.0016245 -0.165661 0.0212839" rpy="0 0 0"/>
+      <mass value="1.97391"/>
+      <inertia ixx="0.0186447" ixy="-0.000186353" ixz="1.19555e-05" iyy="0.00232119" iyz="0.00101771" izz="0.0184056"/>
     </inertial>
     <!-- Part frame_6 -->
     <visual>
-      <origin xyz="-2.43945e-19 0 0" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="0 0 5.55112e-17" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -220,7 +220,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-2.43945e-19 0 0" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="0 0 5.55112e-17" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -245,13 +245,13 @@
   <!-- Link l_ankle_assembly -->
   <link name="l_ankle_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="0.00100905 -0.00935595 -0.004" rpy="0 0 0"/>
+      <mass value="0.00435879"/>
+      <inertia ixx="2.3825e-07" ixy="2.48238e-08" ixz="3.54204e-38" iyy="2.93561e-07" iyz="1.2075e-39" izz="4.89925e-07"/>
     </inertial>
     <!-- Part frame_7 -->
     <visual>
-      <origin xyz="0 0 0" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-2.84061e-17 -2.22045e-16 5.55112e-17" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -260,7 +260,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-2.84061e-17 -2.22045e-16 5.55112e-17" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -285,13 +285,13 @@
   <!-- Link l_foot_assembly -->
   <link name="l_foot_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-2.1647e-07 0.0064986 -0.00996008" rpy="0 0 0"/>
+      <mass value="0.282308"/>
+      <inertia ixx="0.000678573" ixy="1.86655e-10" ixz="-3.27534e-09" iyy="0.000739455" iyz="-2.40954e-05" izz="0.000104866"/>
     </inertial>
     <!-- Part frame_8 -->
     <visual>
-      <origin xyz="5.55112e-17 0 -0.01" rpy="1.5708 2.4082e-29 -4.65428e-29"/>
+      <origin xyz="0 0 -0.01" rpy="1.5708 2.25763e-28 -8.38559e-28"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -300,14 +300,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="5.55112e-17 0 -0.01" rpy="1.5708 2.4082e-29 -4.65428e-29"/>
+      <origin xyz="0 0 -0.01" rpy="1.5708 2.25763e-28 -8.38559e-28"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part l_foot -->
     <visual>
-      <origin xyz="-1.154e-08 0.0064987 -0.00995996" rpy="1.5708 2.17601e-32 0"/>
+      <origin xyz="-1.154e-08 0.0064987 -0.00995996" rpy="1.5708 -4.86428e-32 0"/>
       <geometry>
         <mesh filename="assets/l_foot.stl"/>
       </geometry>
@@ -316,7 +316,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-1.154e-08 0.0064987 -0.00995996" rpy="1.5708 2.17601e-32 0"/>
+      <origin xyz="-1.154e-08 0.0064987 -0.00995996" rpy="1.5708 -4.86428e-32 0"/>
       <geometry>
         <mesh filename="assets/l_foot.stl"/>
       </geometry>
@@ -332,7 +332,7 @@
   </joint>
   <!-- Joint from l_tibia_assembly to l_ankle_assembly -->
   <joint name="left_ankle_pitch_joint" type="revolute">
-    <origin xyz="0.0015 -0.38 0.0291" rpy="2.51449e-30 1.20505e-30 3.70765e-29"/>
+    <origin xyz="0.0015 -0.38 0.0291" rpy="2.44547e-29 1.0601e-29 3.67609e-28"/>
     <parent link="l_tibia_assembly"/>
     <child link="l_ankle_assembly"/>
     <axis xyz="0 0 1"/>
@@ -340,7 +340,7 @@
   </joint>
   <!-- Joint from l_lower_femur_assembly to l_tibia_assembly -->
   <joint name="left_knee_joint" type="revolute">
-    <origin xyz="-0.025 -2.79182e-18 -0.203" rpy="1.5708 1.38778e-15 1.5708"/>
+    <origin xyz="-0.025 1.45825e-17 -0.203" rpy="1.5708 -1.17888e-30 1.5708"/>
     <parent link="l_lower_femur_assembly"/>
     <child link="l_tibia_assembly"/>
     <axis xyz="0 0 1"/>
@@ -348,7 +348,7 @@
   </joint>
   <!-- Joint from l_upper_femur_assembly to l_lower_femur_assembly -->
   <joint name="left_hip_yaw_joint" type="revolute">
-    <origin xyz="1.66533e-16 -0.145 0.035" rpy="-1.5708 1.66533e-16 6.12323e-17"/>
+    <origin xyz="1.94289e-16 -0.145 0.035" rpy="-1.5708 1.60891e-31 4.19992e-16"/>
     <parent link="l_upper_femur_assembly"/>
     <child link="l_lower_femur_assembly"/>
     <axis xyz="0 0 1"/>
@@ -356,7 +356,7 @@
   </joint>
   <!-- Joint from l_hip_assembly to l_upper_femur_assembly -->
   <joint name="left_hip_roll_joint" type="revolute">
-    <origin xyz="0.035 0 -0.1" rpy="-1.36715e-16 -1.5708 0"/>
+    <origin xyz="0.035 1.11022e-16 -0.1" rpy="5.29418e-16 -1.5708 0"/>
     <parent link="l_hip_assembly"/>
     <child link="l_upper_femur_assembly"/>
     <axis xyz="0 0 1"/>
@@ -364,7 +364,7 @@
   </joint>
   <!-- Joint from pelvis_assembly to l_hip_assembly -->
   <joint name="left_hip_pitch_joint" type="revolute">
-    <origin xyz="-0.103 -3.1984e-18 -0.127" rpy="1.5708 1.11022e-16 1.5708"/>
+    <origin xyz="-0.103 2.79724e-17 -0.127" rpy="1.5708 6.66134e-16 1.5708"/>
     <parent link="pelvis_assembly"/>
     <child link="l_hip_assembly"/>
     <axis xyz="0 0 1"/>
@@ -374,8 +374,8 @@
   <link name="r_hip_assembly">
     <inertial>
       <origin xyz="-9.88897e-10 7.90233e-09 -0.0502172" rpy="0 0 0"/>
-      <mass value="6.32737"/>
-      <inertia ixx="0.0193374" ixy="5.75417e-09" ixz="-9.66348e-10" iyy="0.015491" iyz="1.42594e-08" izz="0.0114641"/>
+      <mass value="1.00754"/>
+      <inertia ixx="0.00307921" ixy="9.1627e-10" ixz="-1.53877e-10" iyy="0.00246671" iyz="2.2706e-09" izz="0.00182549"/>
     </inertial>
     <!-- Part r_hip -->
     <visual>
@@ -397,13 +397,13 @@
   <!-- Link r_upper_femur_assemby -->
   <link name="r_upper_femur_assemby">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-4.97967e-07 -0.0707397 0.0191111" rpy="0 0 0"/>
+      <mass value="0.515653"/>
+      <inertia ixx="0.0021558" ixy="9.33794e-09" ixz="-1.50007e-08" iyy="0.00126846" iyz="0.000509989" izz="0.00199222"/>
     </inertial>
     <!-- Part frame_9 -->
     <visual>
-      <origin xyz="0 0 0" rpy="-1.5708 7.55733e-32 -3.65927e-33"/>
+      <origin xyz="2.77556e-17 0 1.8735e-16" rpy="-1.5708 2.9897e-29 2.38024e-16"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -412,14 +412,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="-1.5708 7.55733e-32 -3.65927e-33"/>
+      <origin xyz="2.77556e-17 0 1.8735e-16" rpy="-1.5708 2.9897e-29 2.38024e-16"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part r_upper_femur -->
     <visual>
-      <origin xyz="-4.78821e-08 -0.0707395 0.0191113" rpy="-1.5708 1.61759e-33 0"/>
+      <origin xyz="-4.78821e-08 -0.0707395 0.0191113" rpy="-1.5708 -6.37021e-45 0"/>
       <geometry>
         <mesh filename="assets/r_upper_femur.stl"/>
       </geometry>
@@ -428,7 +428,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-4.78821e-08 -0.0707395 0.0191113" rpy="-1.5708 1.61759e-33 0"/>
+      <origin xyz="-4.78821e-08 -0.0707395 0.0191113" rpy="-1.5708 -6.37021e-45 0"/>
       <geometry>
         <mesh filename="assets/r_upper_femur.stl"/>
       </geometry>
@@ -437,13 +437,13 @@
   <!-- Link r_lower_femur_assembly -->
   <link name="r_lower_femur_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="8.74682e-09 -1.97647e-08 -0.0911492" rpy="0 0 0"/>
+      <mass value="2.28451"/>
+      <inertia ixx="0.00972919" ixy="2.67631e-09" ixz="1.2769e-09" iyy="0.00940931" iyz="-2.58595e-09" izz="0.00389334"/>
     </inertial>
     <!-- Part frame_10 -->
     <visual>
-      <origin xyz="2.77556e-17 -1.35525e-19 0" rpy="0 7.70372e-32 4.84973e-17"/>
+      <origin xyz="0 5.17707e-18 1.11022e-16" rpy="-3.00455e-16 -3.44055e-16 1.06246e-30"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -452,14 +452,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="2.77556e-17 -1.35525e-19 0" rpy="0 7.70372e-32 4.84973e-17"/>
+      <origin xyz="0 5.17707e-18 1.11022e-16" rpy="-3.00455e-16 -3.44055e-16 1.06246e-30"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part r_lower_femur -->
     <visual>
-      <origin xyz="5.81823e-09 -4.29417e-09 -0.0911491" rpy="0 -0 -3.92278e-33"/>
+      <origin xyz="5.81823e-09 -4.29417e-09 -0.0911491" rpy="0 -0 1.21643e-45"/>
       <geometry>
         <mesh filename="assets/r_lower_femur.stl"/>
       </geometry>
@@ -468,7 +468,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="5.81823e-09 -4.29417e-09 -0.0911491" rpy="0 -0 -3.92278e-33"/>
+      <origin xyz="5.81823e-09 -4.29417e-09 -0.0911491" rpy="0 -0 1.21643e-45"/>
       <geometry>
         <mesh filename="assets/r_lower_femur.stl"/>
       </geometry>
@@ -477,13 +477,13 @@
   <!-- Link r_tibia_assembly -->
   <link name="r_tibia_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-0.00162429 0.165662 0.0212835" rpy="0 0 0"/>
+      <mass value="1.97394"/>
+      <inertia ixx="0.0186448" ixy="0.000186267" ixz="1.1983e-05" iyy="0.0023212" iyz="-0.00101763" izz="0.0184057"/>
     </inertial>
     <!-- Part frame_11 -->
     <visual>
-      <origin xyz="-1.6263e-19 0 0" rpy="1.5708 1.5708 0"/>
+      <origin xyz="-4.58618e-17 -1.11022e-16 4.996e-16" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -492,7 +492,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-1.6263e-19 0 0" rpy="1.5708 1.5708 0"/>
+      <origin xyz="-4.58618e-17 -1.11022e-16 4.996e-16" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -517,13 +517,13 @@
   <!-- Link l_ankle_assembly_2 -->
   <link name="l_ankle_assembly_2">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="0.00100905 0.00935595 -0.004" rpy="0 0 0"/>
+      <mass value="0.00435879"/>
+      <inertia ixx="2.3825e-07" ixy="-2.48238e-08" ixz="-3.22987e-51" iyy="2.93561e-07" iyz="9.94019e-53" izz="4.89925e-07"/>
     </inertial>
     <!-- Part frame_12 -->
     <visual>
-      <origin xyz="-2.1684e-19 0 0" rpy="1.5708 1.5708 0"/>
+      <origin xyz="3.68629e-18 0 -8.32667e-17" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -532,7 +532,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-2.1684e-19 0 0" rpy="1.5708 1.5708 0"/>
+      <origin xyz="3.68629e-18 0 -8.32667e-17" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -557,13 +557,13 @@
   <!-- Link l_foot_assembly_2 -->
   <link name="l_foot_assembly_2">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-2.1647e-07 0.0064986 -0.00996008" rpy="0 0 0"/>
+      <mass value="0.282308"/>
+      <inertia ixx="0.000678573" ixy="1.86655e-10" ixz="-3.27534e-09" iyy="0.000739455" iyz="-2.40954e-05" izz="0.000104866"/>
     </inertial>
     <!-- Part frame_13 -->
     <visual>
-      <origin xyz="0 0 -0.01" rpy="1.5708 6.245e-17 -1.38778e-17"/>
+      <origin xyz="-2.77556e-17 0 -0.01" rpy="1.5708 1.04083e-16 9.50455e-16"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -572,14 +572,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 -0.01" rpy="1.5708 6.245e-17 -1.38778e-17"/>
+      <origin xyz="-2.77556e-17 0 -0.01" rpy="1.5708 1.04083e-16 9.50455e-16"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part l_foot_2 -->
     <visual>
-      <origin xyz="-1.154e-08 0.0064987 -0.00995996" rpy="1.5708 -3.38964e-32 3.08149e-33"/>
+      <origin xyz="-1.154e-08 0.0064987 -0.00995996" rpy="1.5708 -2.36713e-33 0"/>
       <geometry>
         <mesh filename="assets/l_foot.stl"/>
       </geometry>
@@ -588,7 +588,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-1.154e-08 0.0064987 -0.00995996" rpy="1.5708 -3.38964e-32 3.08149e-33"/>
+      <origin xyz="-1.154e-08 0.0064987 -0.00995996" rpy="1.5708 -2.36713e-33 0"/>
       <geometry>
         <mesh filename="assets/l_foot.stl"/>
       </geometry>
@@ -596,7 +596,7 @@
   </link>
   <!-- Joint from l_ankle_assembly_2 to l_foot_assembly_2 -->
   <joint name="right_ankle_roll_joint" type="revolute">
-    <origin xyz="0.0195 0.015 -0.004" rpy="-5.55112e-17 1.5708 0"/>
+    <origin xyz="0.0195 0.015 -0.004" rpy="6.66134e-16 1.5708 0"/>
     <parent link="l_ankle_assembly_2"/>
     <child link="l_foot_assembly_2"/>
     <axis xyz="0 0 1"/>
@@ -604,7 +604,7 @@
   </joint>
   <!-- Joint from r_tibia_assembly to l_ankle_assembly_2 -->
   <joint name="right_ankle_pitch_joint" type="revolute">
-    <origin xyz="0.0015 0.38 0.0291" rpy="-1.00816e-16 1.89016e-16 1.64666e-16"/>
+    <origin xyz="0.0015 0.38 0.0291" rpy="8.32667e-17 7.24451e-30 -2.17307e-29"/>
     <parent link="r_tibia_assembly"/>
     <child link="l_ankle_assembly_2"/>
     <axis xyz="0 0 1"/>
@@ -612,7 +612,7 @@
   </joint>
   <!-- Joint from r_lower_femur_assembly to r_tibia_assembly -->
   <joint name="right_knee_joint" type="revolute">
-    <origin xyz="0.025 -2.84603e-18 -0.203" rpy="-1.5708 -1.77449e-15 1.5708"/>
+    <origin xyz="0.025 7.40781e-17 -0.203" rpy="-1.5708 2.28092e-29 1.5708"/>
     <parent link="r_lower_femur_assembly"/>
     <child link="r_tibia_assembly"/>
     <axis xyz="0 0 1"/>
@@ -620,7 +620,7 @@
   </joint>
   <!-- Joint from r_upper_femur_assemby to r_lower_femur_assembly -->
   <joint name="right_hip_yaw_joint" type="revolute">
-    <origin xyz="-1.94289e-16 -0.145 0.035" rpy="-1.5708 6.64272e-17 2.29984e-17"/>
+    <origin xyz="-1.66533e-16 -0.145 0.035" rpy="-1.5708 6.63672e-29 3.22255e-16"/>
     <parent link="r_upper_femur_assemby"/>
     <child link="r_lower_femur_assembly"/>
     <axis xyz="0 0 1"/>
@@ -636,7 +636,7 @@
   </joint>
   <!-- Joint from pelvis_assembly to r_hip_assembly -->
   <joint name="right_hip_pitch_joint" type="revolute">
-    <origin xyz="0.103 -3.03577e-18 -0.127" rpy="-1.5708 5.6082e-64 1.5708"/>
+    <origin xyz="0.103 -1.16552e-17 -0.127" rpy="-1.5708 -3.69779e-32 1.5708"/>
     <parent link="pelvis_assembly"/>
     <child link="r_hip_assembly"/>
     <axis xyz="0 0 1"/>
@@ -644,7 +644,7 @@
   </joint>
   <!-- Joint from base to pelvis_assembly -->
   <joint name="waist_yaw_joint" type="revolute">
-    <origin xyz="0.000721188 0.00013182 -0.325769" rpy="0 -4.62223e-33 -4.1539e-17"/>
+    <origin xyz="0.000721188 0.00013182 -0.325769" rpy="6.12323e-17 -6.12323e-17 -7.54747e-49"/>
     <parent link="base"/>
     <child link="pelvis_assembly"/>
     <axis xyz="0 0 1"/>
@@ -653,13 +653,13 @@
   <!-- Link l_shoulder_assembly -->
   <link name="l_shoulder_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-0.0185943 -1.84132e-16 -0.0493022" rpy="0 0 0"/>
+      <mass value="0.928396"/>
+      <inertia ixx="0.00188831" ixy="3.8581e-20" ixz="-0.000134376" iyy="0.00201564" iyz="1.3603e-19" izz="0.0015564"/>
     </inertial>
     <!-- Part frame_14 -->
     <visual>
-      <origin xyz="-2.98156e-19 0 0" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-1.16552e-18 -2.22045e-16 0" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -668,14 +668,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-2.98156e-19 0 0" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-1.16552e-18 -2.22045e-16 0" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part l_shoulder -->
     <visual>
-      <origin xyz="-0.0185943 2.77556e-17 -0.0493022" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-0.0185943 -1.94289e-16 -0.0493022" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/l_shoulder.stl"/>
       </geometry>
@@ -684,7 +684,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-0.0185943 2.77556e-17 -0.0493022" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-0.0185943 -1.94289e-16 -0.0493022" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/l_shoulder.stl"/>
       </geometry>
@@ -693,13 +693,13 @@
   <!-- Link l_upper_arm_assembly -->
   <link name="l_upper_arm_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-3.43737e-07 -0.0849026 0.0221296" rpy="0 0 0"/>
+      <mass value="1.1133"/>
+      <inertia ixx="0.00383878" ixy="3.74641e-09" ixz="-1.61493e-08" iyy="0.00238492" iyz="0.000499003" izz="0.00373704"/>
     </inertial>
     <!-- Part frame_15 -->
     <visual>
-      <origin xyz="0 -2.22045e-16 0" rpy="-1.5708 -5.20001e-33 -9.24446e-33"/>
+      <origin xyz="0 0 0" rpy="-1.5708 -5.20001e-33 -9.24446e-33"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -708,7 +708,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 -2.22045e-16 0" rpy="-1.5708 -5.20001e-33 -9.24446e-33"/>
+      <origin xyz="0 0 0" rpy="-1.5708 -5.20001e-33 -9.24446e-33"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -733,9 +733,9 @@
   <!-- Link l_elbow_assembly -->
   <link name="l_elbow_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="0.00799675 -1.8573e-08 -0.0435193" rpy="0 0 0"/>
+      <mass value="0.736611"/>
+      <inertia ixx="0.0012452" ixy="4.76803e-10" ixz="0.000185437" iyy="0.00127446" iyz="1.70636e-10" izz="0.000933148"/>
     </inertial>
     <!-- Part frame_16 -->
     <visual>
@@ -773,13 +773,13 @@
   <!-- Link l_upper_forearm_assembly -->
   <link name="l_upper_forearm_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-5.82407e-09 -0.0592136 0.0187478" rpy="0 0 0"/>
+      <mass value="0.728397"/>
+      <inertia ixx="0.00170969" ixy="1.46324e-10" ixz="2.53669e-09" iyy="0.00116568" iyz="0.000269664" izz="0.00154551"/>
     </inertial>
     <!-- Part frame_17 -->
     <visual>
-      <origin xyz="3.57787e-18 1.38778e-17 0" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="3.46945e-18 1.38778e-17 0" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -788,7 +788,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="3.57787e-18 1.38778e-17 0" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="3.46945e-18 1.38778e-17 0" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -813,9 +813,9 @@
   <!-- Link l_lower_forearm_assembly -->
   <link name="l_lower_forearm_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="0.00212721 1.09486e-07 -0.0228757" rpy="0 0 0"/>
+      <mass value="0.209186"/>
+      <inertia ixx="0.000199002" ixy="9.13221e-10" ixz="6.50777e-06" iyy="0.000260365" iyz="4.87615e-10" izz="0.0002757"/>
     </inertial>
     <!-- Part frame_18 -->
     <visual>
@@ -853,13 +853,13 @@
   <!-- Link l_forearm_linkage_assembly -->
   <link name="l_forearm_linkage_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-2.17029e-18 0.0375 -0.03" rpy="0 0 0"/>
+      <mass value="0.549558"/>
+      <inertia ixx="0.000863537" ixy="-2.71026e-35" ixz="-2.76742e-34" iyy="0.00031383" iyz="-1.16048e-35" izz="0.000863537"/>
     </inertial>
     <!-- Part frame_19 -->
     <visual>
-      <origin xyz="0 -2.77556e-17 -5.55112e-17" rpy="1.5708 1.5708 0"/>
+      <origin xyz="1.0842e-19 -2.77556e-17 -5.55112e-17" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -868,14 +868,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 -2.77556e-17 -5.55112e-17" rpy="1.5708 1.5708 0"/>
+      <origin xyz="1.0842e-19 -2.77556e-17 -5.55112e-17" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part l_forearm_linkage -->
     <visual>
-      <origin xyz="-1.0842e-18 0.0375 -0.03" rpy="1.5708 1.5708 0"/>
+      <origin xyz="-9.75782e-19 0.0375 -0.03" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/l_forearm_linkage.stl"/>
       </geometry>
@@ -884,7 +884,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-1.0842e-18 0.0375 -0.03" rpy="1.5708 1.5708 0"/>
+      <origin xyz="-9.75782e-19 0.0375 -0.03" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/l_forearm_linkage.stl"/>
       </geometry>
@@ -893,9 +893,9 @@
   <!-- Link l_wrist_assembly -->
   <link name="l_wrist_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-0.000663069 -0.0190316 0.0332967" rpy="0 0 0"/>
+      <mass value="0.222303"/>
+      <inertia ixx="0.000337905" ixy="-9.78226e-06" ixz="3.97497e-07" iyy="0.000280065" iyz="-3.86151e-06" izz="0.000280541"/>
     </inertial>
     <!-- Part frame_20 -->
     <visual>
@@ -940,7 +940,7 @@
   </joint>
   <!-- Joint from l_lower_forearm_assembly to l_forearm_linkage_assembly -->
   <joint name="left_wrist_linkage_pitch_joint" type="revolute">
-    <origin xyz="-0.031 2.71051e-18 -0.0375" rpy="-1.5708 -4.93038e-32 1.5708"/>
+    <origin xyz="-0.031 2.60209e-18 -0.0375" rpy="-1.5708 -4.93038e-32 1.5708"/>
     <parent link="l_lower_forearm_assembly"/>
     <child link="l_forearm_linkage_assembly"/>
     <axis xyz="0 0 1"/>
@@ -948,7 +948,7 @@
   </joint>
   <!-- Joint from l_upper_forearm_assembly to l_lower_forearm_assembly -->
   <joint name="left_wrist_linkage_yaw_joint" type="revolute">
-    <origin xyz="-2.05998e-18 -0.125 0.025" rpy="-1.5708 -1.5708 0"/>
+    <origin xyz="-2.1684e-18 -0.125 0.025" rpy="-1.5708 -1.5708 0"/>
     <parent link="l_upper_forearm_assembly"/>
     <child link="l_lower_forearm_assembly"/>
     <axis xyz="0 0 1"/>
@@ -956,7 +956,7 @@
   </joint>
   <!-- Joint from l_elbow_assembly to l_upper_forearm_assembly -->
   <joint name="left_elbow_joint" type="revolute">
-    <origin xyz="-0.025 -2.05998e-18 -0.075" rpy="1.5708 3.33067e-16 1.5708"/>
+    <origin xyz="-0.025 -1.95156e-18 -0.075" rpy="1.5708 3.33067e-16 1.5708"/>
     <parent link="l_elbow_assembly"/>
     <child link="l_upper_forearm_assembly"/>
     <axis xyz="0 0 1"/>
@@ -972,7 +972,7 @@
   </joint>
   <!-- Joint from l_shoulder_assembly to l_upper_arm_assembly -->
   <joint name="left_shoulder_roll_joint" type="revolute">
-    <origin xyz="0.028 2.498e-16 -0.078" rpy="2.77556e-17 -1.5708 0"/>
+    <origin xyz="0.028 -1.94289e-16 -0.078" rpy="2.77556e-17 -1.5708 0"/>
     <parent link="l_shoulder_assembly"/>
     <child link="l_upper_arm_assembly"/>
     <axis xyz="0 0 1"/>
@@ -989,13 +989,13 @@
   <!-- Link r_shoulder_assembly -->
   <link name="r_shoulder_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-0.0185943 2.13669e-16 -0.0493022" rpy="0 0 0"/>
+      <mass value="0.928396"/>
+      <inertia ixx="0.00188831" ixy="4.92951e-27" ixz="-0.000134376" iyy="0.00201564" iyz="-2.04982e-25" izz="0.0015564"/>
     </inertial>
     <!-- Part frame_21 -->
     <visual>
-      <origin xyz="-1.65612e-17 0 2.77556e-17" rpy="1.5708 1.5708 0"/>
+      <origin xyz="-1.74285e-17 2.22045e-16 2.77556e-17" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -1004,14 +1004,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-1.65612e-17 0 2.77556e-17" rpy="1.5708 1.5708 0"/>
+      <origin xyz="-1.74285e-17 2.22045e-16 2.77556e-17" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part r_shoulder -->
     <visual>
-      <origin xyz="-0.0185943 2.22045e-16 -0.0493022" rpy="1.5708 1.5708 0"/>
+      <origin xyz="-0.0185943 4.44089e-16 -0.0493022" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/r_shoulder.stl"/>
       </geometry>
@@ -1020,7 +1020,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-0.0185943 2.22045e-16 -0.0493022" rpy="1.5708 1.5708 0"/>
+      <origin xyz="-0.0185943 4.44089e-16 -0.0493022" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/r_shoulder.stl"/>
       </geometry>
@@ -1029,13 +1029,13 @@
   <!-- Link r_upper_arm_assembly -->
   <link name="r_upper_arm_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-9.3082e-08 -0.0849026 0.0221297" rpy="0 0 0"/>
+      <mass value="1.1133"/>
+      <inertia ixx="0.00383875" ixy="4.7399e-09" ixz="-8.61473e-09" iyy="0.00238492" iyz="0.000498994" izz="0.00373706"/>
     </inertial>
     <!-- Part frame_22 -->
     <visual>
-      <origin xyz="0 0 0" rpy="-1.5708 5.66994e-31 0"/>
+      <origin xyz="5.55112e-17 -2.77556e-17 0" rpy="-1.5708 1.26957e-30 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -1044,14 +1044,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="-1.5708 5.66994e-31 0"/>
+      <origin xyz="5.55112e-17 -2.77556e-17 0" rpy="-1.5708 1.26957e-30 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part r_upper_arm -->
     <visual>
-      <origin xyz="-9.88939e-08 -0.0849026 0.0221297" rpy="-1.5708 -1.22884e-45 0"/>
+      <origin xyz="-9.88939e-08 -0.0849026 0.0221297" rpy="-1.5708 2.12587e-53 0"/>
       <geometry>
         <mesh filename="assets/r_upper_arm.stl"/>
       </geometry>
@@ -1060,7 +1060,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-9.88939e-08 -0.0849026 0.0221297" rpy="-1.5708 -1.22884e-45 0"/>
+      <origin xyz="-9.88939e-08 -0.0849026 0.0221297" rpy="-1.5708 2.12587e-53 0"/>
       <geometry>
         <mesh filename="assets/r_upper_arm.stl"/>
       </geometry>
@@ -1069,13 +1069,13 @@
   <!-- Link r_elbow_assembly -->
   <link name="r_elbow_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-0.00799675 -1.944e-08 -0.0435193" rpy="0 0 0"/>
+      <mass value="0.736611"/>
+      <inertia ixx="0.0012452" ixy="-4.55573e-10" ixz="-0.000185437" iyy="0.00127447" iyz="1.68986e-10" izz="0.00093316"/>
     </inertial>
     <!-- Part frame_23 -->
     <visual>
-      <origin xyz="-5.55112e-17 -1.0842e-19 6.93889e-18" rpy="5.55112e-17 -2.09268e-16 -2.00814e-17"/>
+      <origin xyz="1.11022e-16 -2.23346e-17 6.93889e-18" rpy="5.55112e-16 -6.27803e-16 -6.02443e-17"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -1084,14 +1084,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-5.55112e-17 -1.0842e-19 6.93889e-18" rpy="5.55112e-17 -2.09268e-16 -2.00814e-17"/>
+      <origin xyz="1.11022e-16 -2.23346e-17 6.93889e-18" rpy="5.55112e-16 -6.27803e-16 -6.02443e-17"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part r_elbow -->
     <visual>
-      <origin xyz="-0.00799674 -7.28961e-09 -0.0435193" rpy="3.9443e-31 -0 -9.81221e-31"/>
+      <origin xyz="-0.00799674 -7.28961e-09 -0.0435193" rpy="0 -0 -1.18558e-31"/>
       <geometry>
         <mesh filename="assets/r_elbow.stl"/>
       </geometry>
@@ -1100,7 +1100,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-0.00799674 -7.28961e-09 -0.0435193" rpy="3.9443e-31 -0 -9.81221e-31"/>
+      <origin xyz="-0.00799674 -7.28961e-09 -0.0435193" rpy="0 -0 -1.18558e-31"/>
       <geometry>
         <mesh filename="assets/r_elbow.stl"/>
       </geometry>
@@ -1109,13 +1109,13 @@
   <!-- Link r_upper_forearm_assembly -->
   <link name="r_upper_forearm_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-6.87143e-09 0.0592136 0.0187478" rpy="0 0 0"/>
+      <mass value="0.728398"/>
+      <inertia ixx="0.00170969" ixy="-1.72305e-10" ixz="1.24621e-09" iyy="0.00116568" iyz="-0.000269664" izz="0.00154551"/>
     </inertial>
     <!-- Part frame_24 -->
     <visual>
-      <origin xyz="-4.33681e-18 -1.38778e-17 0" rpy="1.5708 1.5708 0"/>
+      <origin xyz="-4.22839e-18 -6.93889e-18 -5.55112e-17" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -1124,7 +1124,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-4.33681e-18 -1.38778e-17 0" rpy="1.5708 1.5708 0"/>
+      <origin xyz="-4.22839e-18 -6.93889e-18 -5.55112e-17" rpy="1.5708 1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -1149,13 +1149,13 @@
   <!-- Link r_lower_forearm_assembly -->
   <link name="r_lower_forearm_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-0.00212722 -5.20387e-08 -0.0228757" rpy="0 0 0"/>
+      <mass value="0.209186"/>
+      <inertia ixx="0.000199002" ixy="5.06889e-11" ixz="-6.50779e-06" iyy="0.000260364" iyz="-5.78131e-10" izz="0.0002757"/>
     </inertial>
     <!-- Part frame_25 -->
     <visual>
-      <origin xyz="5.55112e-17 -3.25261e-19 0" rpy="-1.11022e-16 4.51028e-17 -8.67362e-19"/>
+      <origin xyz="0 -1.0842e-19 0" rpy="-2.22045e-16 1.2837e-16 4.25007e-17"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -1164,14 +1164,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="5.55112e-17 -3.25261e-19 0" rpy="-1.11022e-16 4.51028e-17 -8.67362e-19"/>
+      <origin xyz="0 -1.0842e-19 0" rpy="-2.22045e-16 1.2837e-16 4.25007e-17"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part r_lower_forearm -->
     <visual>
-      <origin xyz="-0.0021283 -6.79095e-09 -0.0228754" rpy="1.35585e-31 4.23834e-31 -9.55188e-31"/>
+      <origin xyz="-0.0021283 -6.79095e-09 -0.0228754" rpy="-4.74463e-31 -1.29581e-30 1.77646e-31"/>
       <geometry>
         <mesh filename="assets/r_lower_forearm.stl"/>
       </geometry>
@@ -1180,7 +1180,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-0.0021283 -6.79095e-09 -0.0228754" rpy="1.35585e-31 4.23834e-31 -9.55188e-31"/>
+      <origin xyz="-0.0021283 -6.79095e-09 -0.0228754" rpy="-4.74463e-31 -1.29581e-30 1.77646e-31"/>
       <geometry>
         <mesh filename="assets/r_lower_forearm.stl"/>
       </geometry>
@@ -1189,13 +1189,13 @@
   <!-- Link r_forearm_linkage_assembly -->
   <link name="r_forearm_linkage_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="-2.27153e-18 -0.0375 -0.03" rpy="0 0 0"/>
+      <mass value="0.549558"/>
+      <inertia ixx="0.000863537" ixy="9.3491e-34" ixz="5.96366e-35" iyy="0.00031383" iyz="1.31934e-34" izz="0.000863537"/>
     </inertial>
     <!-- Part frame_26 -->
     <visual>
-      <origin xyz="-3.25261e-19 0 0" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-2.1684e-19 -2.77556e-17 0" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -1204,7 +1204,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-3.25261e-19 0 0" rpy="-1.5708 -1.5708 0"/>
+      <origin xyz="-2.1684e-19 -2.77556e-17 0" rpy="-1.5708 -1.5708 0"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -1229,13 +1229,13 @@
   <!-- Link r_wrist_assembly -->
   <link name="r_wrist_assembly">
     <inertial>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <mass value="1e-09"/>
-      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+      <origin xyz="0.000662917 -0.0190316 0.0332967" rpy="0 0 0"/>
+      <mass value="0.222303"/>
+      <inertia ixx="0.000337905" ixy="9.78318e-06" ixz="-3.98466e-07" iyy="0.000280065" iyz="-3.86152e-06" izz="0.000280541"/>
     </inertial>
     <!-- Part frame_27 -->
     <visual>
-      <origin xyz="-5.55112e-17 5.55112e-17 -6.93889e-18" rpy="-1.5708 8.23006e-16 5.02636e-16"/>
+      <origin xyz="0 5.55112e-17 3.46945e-18" rpy="-1.5708 -2.06702e-31 -1.93076e-30"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
@@ -1244,14 +1244,14 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="-5.55112e-17 5.55112e-17 -6.93889e-18" rpy="-1.5708 8.23006e-16 5.02636e-16"/>
+      <origin xyz="0 5.55112e-17 3.46945e-18" rpy="-1.5708 -2.06702e-31 -1.93076e-30"/>
       <geometry>
         <mesh filename="assets/frame.stl"/>
       </geometry>
     </collision>
     <!-- Part r_wrist -->
     <visual>
-      <origin xyz="0.000662978 -0.0190318 0.0332978" rpy="-1.5708 6.12323e-17 9.24446e-33"/>
+      <origin xyz="0.000662978 -0.0190318 0.0332978" rpy="-1.5708 6.12323e-17 -8.24165e-30"/>
       <geometry>
         <mesh filename="assets/r_wrist.stl"/>
       </geometry>
@@ -1260,7 +1260,7 @@
       </material>
     </visual>
     <collision>
-      <origin xyz="0.000662978 -0.0190318 0.0332978" rpy="-1.5708 6.12323e-17 9.24446e-33"/>
+      <origin xyz="0.000662978 -0.0190318 0.0332978" rpy="-1.5708 6.12323e-17 -8.24165e-30"/>
       <geometry>
         <mesh filename="assets/r_wrist.stl"/>
       </geometry>
@@ -1276,7 +1276,7 @@
   </joint>
   <!-- Joint from r_lower_forearm_assembly to r_forearm_linkage_assembly -->
   <joint name="right_wrist_linkage_pitch_joint" type="revolute">
-    <origin xyz="0.031 2.92735e-18 -0.0375" rpy="1.5708 1.11716e-14 1.5708"/>
+    <origin xyz="0.031 2.71051e-18 -0.0375" rpy="1.5708 3.67194e-14 1.5708"/>
     <parent link="r_lower_forearm_assembly"/>
     <child link="r_forearm_linkage_assembly"/>
     <axis xyz="0 0 1"/>
@@ -1284,7 +1284,7 @@
   </joint>
   <!-- Joint from r_upper_forearm_assembly to r_lower_forearm_assembly -->
   <joint name="right_wrist_linkage_yaw_joint" type="revolute">
-    <origin xyz="1.61112e-16 0.125 0.025" rpy="1.5708 1.5708 0"/>
+    <origin xyz="6.70254e-16 0.125 0.025" rpy="1.5708 1.5708 0"/>
     <parent link="r_upper_forearm_assembly"/>
     <child link="r_lower_forearm_assembly"/>
     <axis xyz="0 0 1"/>
@@ -1292,7 +1292,7 @@
   </joint>
   <!-- Joint from r_elbow_assembly to r_upper_forearm_assembly -->
   <joint name="right_elbow_joint" type="revolute">
-    <origin xyz="0.025 2.44921e-16 -0.075" rpy="-1.5708 -8.32667e-16 1.5708"/>
+    <origin xyz="0.025 2.15648e-16 -0.075" rpy="-1.5708 -2.27596e-15 1.5708"/>
     <parent link="r_elbow_assembly"/>
     <child link="r_upper_forearm_assembly"/>
     <axis xyz="0 0 1"/>
@@ -1300,15 +1300,15 @@
   </joint>
   <!-- Joint from r_upper_arm_assembly to r_elbow_assembly -->
   <joint name="right_shoulder_yaw_joint" type="revolute">
-    <origin xyz="5.55112e-16 -0.165 0.0275" rpy="-1.5708 8.12332e-15 -1.25781e-15"/>
+    <origin xyz="-5.55112e-17 -0.165 0.0275" rpy="-1.5708 -1.70091e-15 -2.78879e-15"/>
     <parent link="r_upper_arm_assembly"/>
     <child link="r_elbow_assembly"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-7.99361e-15" upper="2.61799"/>
+    <limit effort="10" velocity="10" lower="-2.66454e-15" upper="2.61799"/>
   </joint>
   <!-- Joint from r_shoulder_assembly to r_upper_arm_assembly -->
   <joint name="right_shoulder_roll_joint" type="revolute">
-    <origin xyz="0.028 1.83187e-15 -0.078" rpy="3.14159 1.5708 0"/>
+    <origin xyz="0.028 0 -0.078" rpy="3.14159 1.5708 0"/>
     <parent link="r_shoulder_assembly"/>
     <child link="r_upper_arm_assembly"/>
     <axis xyz="0 0 1"/>
